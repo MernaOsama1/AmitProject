@@ -178,7 +178,7 @@ void M_Timer_Void_PWMDutyOsc()
 			H_LCD_Void_LCDGoTo(0,0);
 			H_LCD_Void_LCDWriteString("DC=");
 			H_LCD_Void_LCDGoTo(0,5);
-			H_LCD_Void_LCDWriteNumber(LocalCounterDC);
+			//H_LCD_Void_LCDWriteNumber(LocalCounterDC); canceled because it prints random numbers
 			H_LCD_Void_LCDGoTo(0,8);
 			H_LCD_Void_LCDWriteString("3.8Hz");
 			_delay_ms(250);
